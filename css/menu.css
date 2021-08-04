@@ -1,0 +1,35 @@
+/*FUENTE REGULAR TIENNE Y TILLANA*/
+@import url('https://fonts.googleapis.com/css2?family=Tienne&family=Tillana&display=swap');
+
+li, a{
+    color:white;
+    font-family: 'Tienne', sans-serif;
+}
+.logo-header img{
+    width: 85px;
+}
+.logo-name{
+    color:white;
+    font-family: 'Tillana', cursive;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+    background:black;
+    position: fixed;
+    max-width: 210px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+}
+nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+

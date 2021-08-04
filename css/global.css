@@ -1,4 +1,17 @@
+/*FUENTE REGULAR TIENNE Y TILLANA*/
+@import url('https://fonts.googleapis.com/css2?family=Tienne&family=Tillana&display=swap');
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+.img-container{
+    opacity: .1;
+    left: 210px;
+    top: 0px;
 }
