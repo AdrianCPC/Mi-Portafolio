@@ -1,5 +1,7 @@
 /*FUENTE REGULAR TIENNE Y TILLANA*/
 @import url('https://fonts.googleapis.com/css2?family=Tienne&family=Tillana&display=swap');
+/*FUENTE BOLD TIENNE*/
+@import url('https://fonts.googleapis.com/css2?family=Tienne:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -18,4 +20,24 @@ body{
     min-height: 100vh;
     opacity: .1;
     top: 0px;
+}
+
+/*COLOCANDO SALUDO E IMAGEN INICIAL*/
+.greeting{
+    display: flex;
+    justify-content:center;
+    margin-top: 400px;
+    margin-left: 680px;
+    position:absolute;
+}
+.greeting #hi{
+    font-size: 48px;
+    font-family: 'Tienne', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+.profile {
+    position:absolute;
+    margin-left: 800px;
+    margin-top: 250px;
 }
