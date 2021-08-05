@@ -5,10 +5,18 @@ li, a{
     color:white;
     font-family: 'Tienne', sans-serif;
 }
+li{
+    margin-left: 0px;
+    padding: 1rem;
+    border: 7px solid black;
+    background:#383838;
+}
 .logo-header img{
     width: 85px;
+    text-align: center;
 }
 .logo-name{
+    padding: 0;
     color:white;
     font-family: 'Tillana', cursive;
     font-size: 24px;
@@ -26,7 +34,6 @@ header{
     justify-content: space-around;
     flex-direction: column;
     align-items: flex-start;
-    padding: 30px;
 }
 nav-menu ul{
     display: flex;
