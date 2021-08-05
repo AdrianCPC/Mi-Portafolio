@@ -1,0 +1,58 @@
+/*UBICACION SOBRE MI Y CONTENIDO*/
+
+.about-main{
+    font-size: 35px;
+    font-family: 'Tienne', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+/*SOBRE MI*/
+.about-main #about-title{
+    margin-top: 40px;
+    margin-left: 200px;
+}
+/*HABILIDADES*/
+.about-main #about-skill{
+    margin-top: 20px;
+    margin-left: 900px;
+}
+/*EDUCACION*/
+.about-main #about-edu{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+/*EXPERIENCIA*/
+.about-main #about-ex{
+    margin-top: 20px;
+    margin-left: 900px;
+}
+.about-content{
+    font-size: 20px;
+    margin-top: 2px;
+    font-family: 'Tienne', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+/*SOBRE MI*/
+.about-content #about-me{
+    margin-left: 200px;
+}
+/*EDUCACION*/
+.about-content #about-year{
+    margin-left: 200px;
+}
+/*EXPERIENCIA*/
+.about-content #about-job{
+    margin-left: 900px;
+}
+
+/*ICONOS DE HABILIDADES*/
+.about-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 600px;
+}
+.about-icon img{
+    width: 55px;
+}
