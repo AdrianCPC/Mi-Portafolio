@@ -1,0 +1,39 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #383838;
+    background-size: 100%;
+    min-height: 290px;
+    color: #fff;
+    font-family: 'Tienner',sans-serif;
+}
+.footer-message{
+    text-align: center;
+    letter-spacing: .1em;
+}
+
+/*RESPONSIVE SECTION FOOTER*/
+@media screen and (max-width:1100px){
+    footer{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px){
+    footer{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:450px){
+    footer{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:300px){
+    footer{
+        width: 90%;
+    }
+}
