@@ -1,0 +1,60 @@
+:root{
+    --color-text:#49454567;
+}
+
+.contact-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    min-height: 100vh;
+    margin:0;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    font-family:'Tienne', sans-serif;
+    /*max-inline-size: 1232px;
+    padding: 1em 10em;*/
+}
+#contact{
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 48px;
+}
+/*DANDO ESTILO AL FORMULARIO*/
+form{
+    background: grey;
+    width: 30%;
+    padding: 10px 0;
+    border-radius:10px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.5);
+}
+.form{
+    width: 100%;
+    margin: auto;
+}
+form .group{
+    position: relative;
+    margin: 45px;
+}
+
+
+
+/*
+
+.form{
+    max-inline-size: 550px;
+    margin:10px;
+}
+.form input,
+.form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    padding: .8em;
+    border-radius: 1.5em;
+    border: .5px solid #858c94;
+}
+.form textarea{
+    margin-block-end: 3em;
+    font-family: 'Tienne', sans-serif;
+}*/

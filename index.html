@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="/css/menu.css">
     <link rel="stylesheet" type="text/css" href="/css/about.css">
     <link rel="stylesheet" type="text/css" href="/css/works.css">
+    <link rel="stylesheet" type="text/css" href="/css/contact.css">
 </head>
 <body>
     <!--CREANDO MENU-LOGO-->
@@ -19,10 +20,10 @@
         </div>
         <nav class="nav-menu">
             <ul>
-                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Prueba">Inicio</a></li>
                 <li><a href="#Sobre">Sobre mí</a></li>
                 <li><a href="#Proyectos">Proyectos</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
             </ul>
         </nav>
         <div class="git-header">
@@ -36,14 +37,14 @@
         </div>
     </header>
     <!--SALUDO E IMAGEN DE PERFIL Y FONDO DEGRADADO-->
-    <section id="Inicio">
+    <section id="Prueba">
         <div class="profile">
             <img src="/assets/img/profileCourserajpg 1.png" alt="Profile">
         </div>
         <div class="greeting">
             <p id="hi">Hola, soy Adrián,<br>...</p>
         </div>
-        <div class="img-container"></div>
+        <div class="container"></div>
     </section>
     <!--SECCION SOBRE MI-->
     <section id="Sobre">
@@ -88,7 +89,7 @@
         </div>
     </section>
     <!--SECCION PROYECTOS TRABAJADOS-->
-    <section id="Proyectos">
+    <section id="Proyectos" class="project-container">
         <div class="about-main">
             <h1 id="project-tittle">Proyectos</h1>
         </div>
@@ -134,6 +135,39 @@
                 <h4>Titulo Proyecto</h4>
                 <p class="card-content">Descripción</p>
                 <a href="#" id="see">Ver más</a>
+            </div>
+        </div>
+    </section>
+    <!--SECCION CONTACTO-->
+    <section id="Contacto">
+        <div class="contact-wrapper">
+            <form action="">
+                <div class="form">
+                    <h1 id="contact">Contacto</h1>
+                    <div class="group">
+                        <input type="text" name="" id=""><span class="line"></span>
+                        <label>Nombre completo</label>
+                    </div>
+                    <div class="group">
+                        <input type="email" name="" id=""><span class="line"></span>
+                        <label>Correo</label>
+                    </div>
+                    <div class="group">
+                        <textarea name="" id="" rows="3" required></textarea><span class="line"></span>
+                        <label>Mensaje</label>
+                    </div>
+                    <button type="submit">Enviar mensaje!</button>
+                </div>
+            </form>
+            <!--<h1 id="contact-title">Contacto</h1>
+            <div class="contact-content">-->
+                <!--
+                <form id="form" action="" class="form">
+                    <input name="name" required type="text" id="name" placeholder="Nombre completo">
+                    <input name="email" type="text" id="email" required placeholder="Correo">
+                    <textarea id="message" name="message" id="" cols="30" rows="10">Mensaje</textarea>
+                    <button type="submit" class="btn primary full"></button>
+                </form>-->
             </div>
         </div>
     </section>

@@ -1,6 +1,9 @@
 /*UBICACION SOBRE MI Y CONTENIDO*/
 
 .about-main{
+    background-size: 100%;
+    /*min-height: 100vh;*/
+    background-color: wheat;
     font-size: 35px;
     font-family: 'Tienne', sans-serif;
     font-weight: bold;
