@@ -1,0 +1,48 @@
+.about-main #project-tittle{
+    margin-top:200px;
+    margin-left: 200px;
+}
+.card-container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+}
+.container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    transition: all 0.2s;
+}
+.card-container .card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.card-container .card img{
+    width: 400px;
+    height: 220px;
+}
+.card-container .card h4{
+    font-weight: bold;
+    font-family: 'Tienne', sans-serif;
+    text-align: center;
+}
+.card .card-content{
+    padding: 0 1rem;
+    font-family: 'Tienne', sans-serif;
+    font-weight: normal;
+}
+/* VER MAS*/
+.card #see{
+    padding: 0 10rem;
+    font-weight: normal;
+    font-family: 'Tienne', sans-serif;
+    text-align: center;
+    color: blue;
+}
