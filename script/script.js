@@ -1,15 +1,20 @@
-const Form = document.querySelector('#form')
-const sendMail = document.querySelector('#email-hidden')
-
+const Form = document.querySelector('#form');
 
 Form.addEventListener('submit', handleSubmit)
 
-
-function handleSubmit(event) {
+async function handleSubmit(event) {
     event.preventDefault()
     const form = new FormData(this)
-    //console.log(form.get('message'))
-    sendMail.setAttribute('href', `mailto:ihanalytics@yopmail.com?subject=nombre ${form.get('name')}
-    correo ${form.get('email')}&body=${form.get('message')}`)
-    sendMail.click()
+    const response = await fetch(this.action, {
+        method: this.method,
+        body: form,
+        headers: {
+            'Accept': 'application/json'
+        }
+    })
+    if (response.ok) {
+        this.reset()
+        alert('Tú mensaje ha sido enviado con exito, gracias por contactarme !:D')
+    }
 }
+
