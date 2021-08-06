@@ -148,22 +148,23 @@
     <!--SECCION CONTACTO-->
     <section id="Contacto">
         <div class="contact-wrapper">
-            <form action="">
+            <form id="form" action="">
                 <div class="form">
                     <h1 id="contact">Contacto</h1>
                     <div class="group">
-                        <input type="text" name="" id=""><span class="line"></span>
+                        <input type="text" name="name" id="name"><span class="line"></span>
                         <label>Nombre completo</label>
                     </div>
                     <div class="group">
-                        <input type="email" name="" id=""><span class="line"></span>
+                        <input type="email" name="email" id="email"><span class="line"></span>
                         <label>Correo</label>
                     </div>
                     <div class="group">
-                        <textarea name="" id="" rows="3" required></textarea><span class="line"></span>
+                        <textarea name="message" id="message" rows="3" required></textarea><span class="line"></span>
                         <label>Mensaje</label>
                     </div>
                     <button type="submit">Enviar mensaje!</button>
+                    <a href="mailto:ihanalytics@yopmail.com" id="email-hidden"></a>
                 </div>
             </form>
         </div>
@@ -181,5 +182,6 @@
             Todos los derechos reservados.
         </p>
     </footer>
+    <script src="/script/script.js"></script>
 </body>
 </html>
