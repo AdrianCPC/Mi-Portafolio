@@ -24,6 +24,9 @@
     text-align: center;
     box-shadow: 0px 0px 4px 2px #a69e9e;;
 }
+/*EFECTO CARDS*/
+.card:hover{
+    transform: translateY(-10px);
 h4{
     font-size: 20px;
 }
@@ -33,52 +36,7 @@ h4{
 }
 
 
-/*
-.project-container{
-    background-color: white;
-    background-size: 100%;
-    min-height: 100vh;
-}
-.about-main #project-tittle{
-    margin-top:100px;
-    margin-left: 200px;
-}
-.card-container{
-    width: 100%;
-    max-width: 1200px;
-    height: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin:auto;
-}
-.card-container.card{
-    width: 50px;
-    height: 50px;
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin: 20px;
-    transition: all 0.2s;
-}
-.card-container .card:hover{
-    transform: translateY(-5px);
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
-}
-.card-container .card img{
-    width: 400px;
-    height: 180px;
-}
-.card-container .card h4{
-    font-weight: bold;
-    font-family: 'Tienne', sans-serif;
-    text-align: center;
-}
-.card .card-content{
-    padding: 0 .5rem;
-    font-family: 'Tienne', sans-serif;
-    font-weight: normal;
-}*/
+
 /* VER MAS*/
 /*
 .card #see {
