@@ -112,7 +112,7 @@ button{
     font-weight: bold;
 }
 
-/*RESPONSIVE SECCION CONTACTO*/
+/*RESPONSIVE SECCION CONTACTO*//*
 @media screen and (max-width:1100px){
     form{
         width: 50%;
@@ -136,6 +136,6 @@ button{
         width: 90%;
     }
 }
-
+*/
 
 

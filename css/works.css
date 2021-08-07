@@ -1,4 +1,40 @@
 .project-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    min-height: 700px;
+    font-family:'Tienne', sans-serif;
+}
+.title-container{
+    font-size: 58px;
+    margin-top: 80px;
+    margin-left:200px;
+    font-weight: bold;
+}
+.card img{
+    width: 100%;
+}
+.card{
+    width: 20%;
+    height: 20%;
+    margin: 30px 30px 30px 30px;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 4px 2px #a69e9e;;
+}
+h4{
+    font-size: 20px;
+}
+.card .text-p{
+    line-height: 15px;
+    font-size: 15px;
+}
+
+
+/*
+.project-container{
     background-color: white;
     background-size: 100%;
     min-height: 100vh;
@@ -10,15 +46,15 @@
 .card-container{
     width: 100%;
     max-width: 1200px;
-    height: 430px;
+    height: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin:auto;
 }
-.container .card{
-    width: 330px;
-    height: 430px;
+.card-container.card{
+    width: 50px;
+    height: 50px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -27,11 +63,11 @@
 }
 .card-container .card:hover{
     transform: translateY(-5px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
 }
 .card-container .card img{
     width: 400px;
-    height: 220px;
+    height: 180px;
 }
 .card-container .card h4{
     font-weight: bold;
@@ -39,15 +75,16 @@
     text-align: center;
 }
 .card .card-content{
-    padding: 0 1rem;
+    padding: 0 .5rem;
     font-family: 'Tienne', sans-serif;
     font-weight: normal;
-}
+}*/
 /* VER MAS*/
-.card #see{
+/*
+.card #see {
     padding: 0 10rem;
     font-weight: normal;
     font-family: 'Tienne', sans-serif;
     text-align: center;
     color: blue;
-}
+}*/
