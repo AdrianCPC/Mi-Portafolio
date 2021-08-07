@@ -12,6 +12,10 @@ li{
     background:#383838;
     text-align: center;
 }
+li:hover{
+    transform: translateY(-5px);
+    background: #653472;
+}
 .logo-header img{
     width: 85px;
     text-align: center;
