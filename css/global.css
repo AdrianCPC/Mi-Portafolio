@@ -26,8 +26,8 @@ body{
 .greeting{
     display: flex;
     justify-content:center;
-    margin-top: 400px;
-    margin-left: 680px;
+    margin-top: 300px;
+    margin-left: 480px;
     position:absolute;
 }
 .greeting #hi{
@@ -38,6 +38,6 @@ body{
 }
 .profile {
     position:absolute;
-    margin-left: 800px;
-    margin-top: 250px;
+    margin-left: 590px;
+    margin-top: 150px;
 }

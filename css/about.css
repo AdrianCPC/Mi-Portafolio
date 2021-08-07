@@ -17,7 +17,7 @@
 /*HABILIDADES*/
 .about-main #about-skill{
     margin-top: 20px;
-    margin-left: 900px;
+    margin-left: 800px;
 }
 /*EDUCACION*/
 .about-main #about-edu{
@@ -27,7 +27,7 @@
 /*EXPERIENCIA*/
 .about-main #about-ex{
     margin-top: 20px;
-    margin-left: 900px;
+    margin-left: 800px;
 }
 .about-content{
     font-size: 20px;
@@ -46,7 +46,7 @@
 }
 /*EXPERIENCIA*/
 .about-content #about-job{
-    margin-left: 900px;
+    margin-left: 800px;
 }
 
 /*ICONOS DE HABILIDADES*/
@@ -54,7 +54,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-left: 600px;
+    margin-left: 500px;
 }
 .about-icon img{
     width: 55px;
